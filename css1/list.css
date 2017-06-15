@@ -1,0 +1,87 @@
+/*所有标签元素的通用属性*/
+*{padding: 0;font-size: 12px;color: #522a06;margin: 0 auto;
+font-style: "宋体";}
+img{display: block;border-width: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;color: #522a06;}
+a:hover{text-decoration: underline;}
+body{background-image: url(.../images/bodybg.gif);
+font: 12px "宋体"/"微软雅黑";color: #522a06}
+/* 页面的顶部 */
+.header{width: 100%;height: 205px;
+	background-image:url(../images/bg.gif);
+	background-position: center top;}
+/*logo*/
+.header .banner{width: 1000px;height: 127px;margin:0 auto; padding-top: 38px;}
+.header .banner img{display: block;margin-left: 25px;}
+/*导航栏*/
+.header .nav{height: 40px;
+	background-image: url(../images/nav.jpg);}
+.header .nav .content{width: 1000px; height: 40px;margin: 0px auto;}
+.header .nav .nav_content{width:800px;
+	height: 40px;float: left;}
+.header .nav .nav_content a{display: block;width: 75px;text-decoration: none;line-height: 40px;
+   color: #fff;font-weight: bolder;text-align: center;float: left;}
+.header .nav .nav_content #short{width:55px;}
+.header .nav .nav_content #long{width:130px;}
+.header .nav .nav_content a:hover{color: #f9f603;}
+/*搜索框*/
+.header .nav .nav_search{width:200px;height: 40px;float: left}
+.header .nav .nav_search .search{	width:140px;
+	height:18px;
+	float:left;
+	border:1px solid #FFF;
+	background-color:#f8f5ee;margin: 10px 0px;}
+.header .nav .nav_search .search_bth{width:44px;
+	height:20px;
+	float:left;
+	background-color:#000;
+	border:1px solid #f8f5ee;
+	color:#FFF;margin:10px 0px 8px;}
+/*主体*/
+.content{width: 1000px;height: auto;margin: 0 auto;}
+   /*lefter*/
+.content .lefter{width: 280px;float: left;}
+.content .lefter #broad{width: 250px;padding-left:20px; height: 40px;line-height: 40px;}
+.content .lefter #top{width: 275px;height: auto;
+border: 1px solid #c9baa5;background-image: url(..images/bg.png);}
+.content .lefter #top img{display: block;width: 200px;height: 55px;margin: 10px auto;}
+.content .lefter #top ul{width: 270px;height: auto;margin: 0 auto 10px;}
+.content .lefter #top ul li{width: 100px;height: 40px;text-align: center;line-height: 40px;margin-left: 50px;}
+.content .lefter #top ul li a{font-size: 15px;color: #333;font-weight: bold;}
+.content .lefter #top ul #special{background-image: url(../images/menubg.gif);background-position: left;background-position: -15px;}
+.content .lefter #top ul #special a{color: #900;}
+.content .lefter #center{width: 275px;height: auto;
+border: 1px solid #c9baa5;background-image: url(..images/bg.png);margin-top:25px;}
+.content .lefter #center img{display: block;width: 200px;height: 30px;margin: 10px auto;}
+.content .lefter #center ul{width: 270px;height: auto;margin: 0 auto 15px;}
+.content .lefter #center ul li{width: 150px;height: 40px;text-align: center;line-height: 40px;margin-left: 50px;}
+.content .lefter #center ul li a{display: block;font-size: 15px;font-weight: bold;text-align: center;}
+.content .lefter #bottom{width: 280px;height: auto;margin-top: 25px;}
+.content .lefter #bottom img{width: 278px;height: 80px;display: block;margin: 0 auto;}
+   /*右半部分*/
+.content .righter{width: 700px;height: 700px;margin-left: 15px;float: right;margin-top: 40px;}/*625px*/
+.content .righter #top{width: 648px;height: 45px;padding-left: 50px;
+	line-height: 45px;background-image: url(../images/listtitle.png);
+	border: 1px solid #c9baa5;color: #c00;font-size: 22px;}
+.content .righter ul{list-style-type: disc;list-style-position: inside;padding-left: 5px;}	
+.content .righter ul li{height: 40px;line-height: 40px;}
+.content .righter .time{float: right;width: 150px;height: 40px;list-style: 40px;text-align: right;}
+.content .righter #bottom{width: 434px;margin:20px auto;}
+.content .righter #bottom .pro{width: 30px;height: 30px;float: left;padding-right: 2px;
+	line-height: 30px;text-align: center;}
+.content .righter #bottom .first1{width: 30px;font-weight: bold;
+	height: 30px;border: 1px solid #c9baa5;margin-right: 5px;float: left;
+	line-height: 30px;text-align: center;}
+.content .righter #bottom .first{width: 30px;height: 30px;
+	border: 1px solid #c9baa5;margin-right: 5px;float: left;
+line-height: 30px;text-align: center;}
+.content .righter #bottom .center{width: 30px;height: 30px;float: left;line-height: 30px;text-align: center;}
+/*底部*/
+.footer{width:100%;
+height: 105px;clear: both;background-image: url(../images/foot.gif);}
+.footer .menu{width: 426px;height: 20px;margin: 20px auto;padding-top: 10px;}
+.footer ul li{width: 60px;height: 20px;line-height: 22px;font-weight: bolder;float: left;font-size: 20px;padding-left:10px;border-right: 1px solid #522a06; }
+.footer ul li a{text-decoration: none;}
+.footer .line img{display: block;margin: -5px auto;}
+.footer .copy{margin: 5px auto;text-align: center;height: 20px;line-height: 20px;}
